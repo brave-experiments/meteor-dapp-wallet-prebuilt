@@ -4,7 +4,7 @@
   "description": "Build of meteor-dapp-wallet",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "rebuild": "cd meteor-dapp-wallet/app && meteor-build-client ../../build --path ''"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brave/meteor-dapp-wallet-prebuilt/issues"
   },
-  "homepage": "https://github.com/brave/meteor-dapp-wallet-prebuilt#readme"
+  "homepage": "https://github.com/brave/meteor-dapp-wallet-prebuilt#readme",
+  "devDependencies": {
+    "meteor-build-client": "^0.4.1"
+  }
 }
