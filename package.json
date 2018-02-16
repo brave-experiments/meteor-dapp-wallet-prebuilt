@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/brave/meteor-dapp-wallet-prebuilt#readme",
   "devDependencies": {
+    "fs-extra": "^5.0.0",
     "meteor-build-client": "^0.4.1"
   }
 }
