@@ -1,0 +1,19 @@
+{
+  "name": "meteor-dapp-wallet-prebuilt",
+  "version": "0.1.0",
+  "description": "Build of meteor-dapp-wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brave/meteor-dapp-wallet-prebuilt.git"
+  },
+  "author": "yan@brave.com",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/brave/meteor-dapp-wallet-prebuilt/issues"
+  },
+  "homepage": "https://github.com/brave/meteor-dapp-wallet-prebuilt#readme"
+}
