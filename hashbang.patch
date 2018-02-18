@@ -1,3 +1,22 @@
+diff --git a/app/client/index.html b/app/client/index.html
+index 564a08f..54304dd 100644
+--- a/app/client/index.html
++++ b/app/client/index.html
+@@ -13,6 +13,7 @@
+     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+     
+     <meta name="ethereum-dapp-url-bar-style" content="transparent">
++    <script type="text/javascript" src='ethwallet-main.js'></script>
+ 
+     <!-- <link rel="ethereum-dapp-icon" href="/apple-touch-icon-precomposed.png"> -->
+ 
+@@ -24,4 +25,4 @@
+ 
+     <!-- Form Helper iFrame -->
+     <iframe id="dapp-form-helper-iframe" name="dapp-form-helper-iframe" src="javascript:false;"></iframe>
+-</body>
+\ No newline at end of file
++</body>
 diff --git a/app/client/routes.js b/app/client/routes.js
 index d49d8db..86e7144 100644
 --- a/app/client/routes.js
