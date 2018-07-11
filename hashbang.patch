@@ -1,7 +1,7 @@
-diff --git a/app/client/index.html b/app/client/index.html
+diff --git app/client/index.html app/client/index.html
 index 564a08f..54304dd 100644
---- a/app/client/index.html
-+++ b/app/client/index.html
+--- app/client/index.html
++++ app/client/index.html
 @@ -13,6 +13,7 @@
      <meta name="apple-mobile-web-app-status-bar-style" content="black">
      
@@ -17,29 +17,28 @@ index 564a08f..54304dd 100644
 -</body>
 \ No newline at end of file
 +</body>
-diff --git a/app/client/routes.js b/app/client/routes.js
-index d49d8db..86e7144 100644
---- a/app/client/routes.js
-+++ b/app/client/routes.js
-@@ -10,15 +10,12 @@ FlowRouter.notFound = {
-     }
+diff --git app/client/routes.js app/client/routes.js
+index 2845186..3d9bc87 100644
+--- app/client/routes.js
++++ app/client/routes.js
+@@ -11,14 +11,12 @@ FlowRouter.notFound = {
  };
  
--// redirect on start to dahsboard on file protocol
--if(location.origin === 'file://') {
--    FlowRouter.wait();
--    FlowRouter.initialize({hashbang: true});
+ // redirect on start to dahsboard on file protocol
+-if (location.origin === 'file://') {
+-  FlowRouter.wait();
+-  FlowRouter.initialize({ hashbang: true });
 -
--    Meteor.startup(function() {
--        FlowRouter.go('dashboard');
--    });
+-  Meteor.startup(function() {
+-    FlowRouter.go('dashboard');
+-  });
 -}
 +FlowRouter.wait();
-+FlowRouter.initialize({hashbang: true});
++FlowRouter.initialize({ hashbang: true });
 +
 +Meteor.startup(function() {
-+    FlowRouter.go('dashboard');
++  FlowRouter.go('dashboard');
 +});
  
- 
- FlowRouter.triggers.enter([function(){
+ FlowRouter.triggers.enter([
+   function() {
