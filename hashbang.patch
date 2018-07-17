@@ -1,44 +1,21 @@
-diff --git app/client/index.html app/client/index.html
-index 564a08f..54304dd 100644
---- app/client/index.html
-+++ app/client/index.html
-@@ -13,6 +13,7 @@
-     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-     
-     <meta name="ethereum-dapp-url-bar-style" content="transparent">
-+    <script type="text/javascript" src='ethwallet-main.js'></script>
- 
-     <!-- <link rel="ethereum-dapp-icon" href="/apple-touch-icon-precomposed.png"> -->
- 
-@@ -24,4 +25,4 @@
- 
-     <!-- Form Helper iFrame -->
-     <iframe id="dapp-form-helper-iframe" name="dapp-form-helper-iframe" src="javascript:false;"></iframe>
--</body>
-\ No newline at end of file
-+</body>
 diff --git app/client/routes.js app/client/routes.js
-index 2845186..3d9bc87 100644
+index 2845186..8f6c109 100644
 --- app/client/routes.js
 +++ app/client/routes.js
-@@ -11,14 +11,12 @@ FlowRouter.notFound = {
- };
+@@ -45,6 +45,16 @@ FlowRouter.route('/', {
+   }
+ });
  
- // redirect on start to dahsboard on file protocol
--if (location.origin === 'file://') {
--  FlowRouter.wait();
--  FlowRouter.initialize({ hashbang: true });
--
--  Meteor.startup(function() {
--    FlowRouter.go('dashboard');
--  });
--}
-+FlowRouter.wait();
-+FlowRouter.initialize({ hashbang: true });
-+
-+Meteor.startup(function() {
-+  FlowRouter.go('dashboard');
++FlowRouter.route('/index.html', {
++  name: 'dashboard',
++  action: function(params, queryParams) {
++    BlazeLayout.render('layout_main', {
++      header: 'layout_header',
++      main: 'views_dashboard'
++    });
++  }
 +});
++
+ /**
+ The send route.
  
- FlowRouter.triggers.enter([
-   function() {
