@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.2"
   },
-  "totalMinifiedBytes": 2932165,
-  "totalMinifiedGzipBytes": 744003,
+  "totalMinifiedBytes": 2932028,
+  "totalMinifiedGzipBytes": 743980,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8962,
     "packages/standard-minifiers.js": 38,
@@ -14,7 +14,7 @@
     "packages/ecmascript.js": 30,
     "packages/modules-runtime.js": 4023,
     "packages/modules.js": [
-      109319,
+      109263,
       {
         "node_modules": {
           "meteor": {
@@ -40,7 +40,7 @@
           },
           "@babel": {
             "runtime": {
-              "package.json": 1245,
+              "package.json": 1189,
               "helpers": {
                 "typeof.js": 500,
                 "toConsumableArray.js": 148,
@@ -1067,7 +1067,7 @@
     "app/client/templates/elements/template.tokenBox.js": 1408,
     "app/client/templates/elements/template.transactionTable.js": 11618,
     "app/client/templates/elements/template.vulnerabilities.js": 2283,
-    "app/client/templates/layout/template.header.js": 8585,
+    "app/client/templates/layout/template.header.js": 8463,
     "app/client/templates/layout/template.notFound.js": 248,
     "app/client/templates/views/template.account.js": 16891,
     "app/client/templates/views/template.account_create.js": 7353,
@@ -1126,7 +1126,7 @@
     "app/client/templates/views/send.js": 11390,
     "app/client/index.js": 591,
     "app/client/mist.js": 1278,
-    "app/client/routes.js": 1978,
+    "app/client/routes.js": 2019,
     "app/client/window.js": 494,
     "app/i18n/app.ca.i18n.json": 296,
     "app/i18n/app.de.i18n.json": 124,
