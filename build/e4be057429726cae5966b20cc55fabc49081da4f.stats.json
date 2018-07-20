@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.2"
   },
-  "totalMinifiedBytes": 2932321,
-  "totalMinifiedGzipBytes": 744074,
+  "totalMinifiedBytes": 2931986,
+  "totalMinifiedGzipBytes": 743998,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8962,
     "packages/standard-minifiers.js": 38,
@@ -1127,7 +1127,7 @@
     "app/client/index.js": 591,
     "app/client/mist.js": 1278,
     "app/client/routes.js": 2019,
-    "app/client/window.js": 494,
+    "app/client/window.js": 159,
     "app/i18n/app.ca.i18n.json": 296,
     "app/i18n/app.de.i18n.json": 124,
     "app/i18n/app.en.i18n.json": 598,
