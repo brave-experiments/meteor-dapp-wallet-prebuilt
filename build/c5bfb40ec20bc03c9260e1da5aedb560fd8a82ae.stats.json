@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.2"
   },
-  "totalMinifiedBytes": 2932028,
-  "totalMinifiedGzipBytes": 743980,
+  "totalMinifiedBytes": 2932321,
+  "totalMinifiedGzipBytes": 744074,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8962,
     "packages/standard-minifiers.js": 38,
@@ -1096,7 +1096,7 @@
     "app/client/lib/thirdparty/theme-solarized_light.js": 2402,
     "app/client/lib/thirdparty/theme-tomorrow.js": 2598,
     "app/client/lib/thirdparty/theme-tomorrow_night.js": 2862,
-    "app/client/lib/appStart.js": 1996,
+    "app/client/lib/appStart.js": 2289,
     "app/client/lib/collections.js": 759,
     "app/client/templates/elements/inputs/address.js": 240,
     "app/client/templates/views/modals/addCustomContract.js": 368,
