@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.2"
   },
-  "totalMinifiedBytes": 2937645,
-  "totalMinifiedGzipBytes": 745080,
+  "totalMinifiedBytes": 2937849,
+  "totalMinifiedGzipBytes": 745153,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8962,
     "packages/standard-minifiers.js": 38,
@@ -1078,7 +1078,7 @@
     "app/client/templates/views/template.send.js": 16427,
     "app/client/template.index.js": 317,
     "app/client/templates/layout/template.main.js": 1174,
-    "app/client/lib/ethereum/1_web3Init.js": 123,
+    "app/client/lib/ethereum/1_web3Init.js": 327,
     "app/client/lib/ethereum/observeBlocks.js": 2051,
     "app/client/lib/ethereum/observeCustomContracts.js": 462,
     "app/client/lib/ethereum/observeEvents.js": 348,
