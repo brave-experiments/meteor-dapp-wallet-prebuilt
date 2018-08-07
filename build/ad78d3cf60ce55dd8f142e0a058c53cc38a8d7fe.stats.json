@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.2"
   },
-  "totalMinifiedBytes": 2940818,
-  "totalMinifiedGzipBytes": 745737,
+  "totalMinifiedBytes": 2941019,
+  "totalMinifiedGzipBytes": 745811,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8962,
     "packages/standard-minifiers.js": 38,
@@ -1077,7 +1077,7 @@
     "app/client/templates/views/template.account_create.js": 7353,
     "app/client/templates/views/template.contracts.js": 3951,
     "app/client/templates/views/template.dashboard.js": 5262,
-    "app/client/templates/views/template.send.js": 16427,
+    "app/client/templates/views/template.send.js": 16446,
     "app/client/template.index.js": 317,
     "app/client/templates/layout/template.main.js": 1184,
     "app/client/lib/ethereum/1_web3Init.js": 327,
@@ -1130,7 +1130,7 @@
     "app/client/templates/views/account_create.js": 5444,
     "app/client/templates/views/contracts.js": 4810,
     "app/client/templates/views/dashboard.js": 1044,
-    "app/client/templates/views/send.js": 11730,
+    "app/client/templates/views/send.js": 11912,
     "app/client/index.js": 591,
     "app/client/mist.js": 1278,
     "app/client/routes.js": 2019,
