@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.2"
   },
-  "totalMinifiedBytes": 2942779,
-  "totalMinifiedGzipBytes": 746061,
+  "totalMinifiedBytes": 2943246,
+  "totalMinifiedGzipBytes": 746190,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8962,
     "packages/standard-minifiers.js": 38,
@@ -1080,7 +1080,7 @@
     "app/client/templates/views/template.dashboard.js": 5262,
     "app/client/templates/views/template.send.js": 16446,
     "app/client/template.index.js": 317,
-    "app/client/templates/layout/template.main.js": 1184,
+    "app/client/templates/layout/template.main.js": 1393,
     "app/client/lib/ethereum/1_web3Init.js": 327,
     "app/client/lib/ethereum/observeBlocks.js": 2051,
     "app/client/lib/ethereum/observeCustomContracts.js": 462,
@@ -1102,7 +1102,7 @@
     "app/client/lib/thirdparty/theme-tomorrow.js": 2598,
     "app/client/lib/thirdparty/theme-tomorrow_night.js": 2862,
     "app/client/lib/appStart.js": 2820,
-    "app/client/lib/brave.js": 1831,
+    "app/client/lib/brave.js": 1978,
     "app/client/lib/collections.js": 759,
     "app/client/templates/elements/inputs/address.js": 240,
     "app/client/templates/views/modals/addCustomContract.js": 368,
@@ -1165,6 +1165,7 @@
     "app/i18n/wallet.ua.i18n.json": 140,
     "app/i18n/wallet.zh-TW.i18n.json": 157,
     "app/i18n/wallet.zh.i18n.json": 124,
-    "app/project-i18n.js": 1107
+    "app/project-i18n.js": 1107,
+    "app/client/templates/layout/main.js": 109
   }
 }
