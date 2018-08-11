@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.2"
   },
-  "totalMinifiedBytes": 2942848,
-  "totalMinifiedGzipBytes": 746156,
+  "totalMinifiedBytes": 2942914,
+  "totalMinifiedGzipBytes": 746185,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8962,
     "packages/standard-minifiers.js": 38,
@@ -976,7 +976,7 @@
     "packages/ethereum_blocks.js": 1535,
     "packages/amplify.js": 8705,
     "packages/frozeman_persistent-minimongo.js": 2028,
-    "packages/ethereum_accounts.js": 2832,
+    "packages/ethereum_accounts.js": 2898,
     "packages/3stack_bignumber.js": 14969,
     "packages/ethereum_tools.js": 4150,
     "packages/alexvandesande_identicon.js": 1493,
