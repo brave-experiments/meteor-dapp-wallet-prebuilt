@@ -1,1 +1,1 @@
-NPM package providing builds of https://github.com/ethereum/meteor-dapp-wallet
+NPM package providing builds of https://github.com/brave/meteor-dapp-wallet
