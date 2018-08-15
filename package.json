@@ -1,6 +1,6 @@
 {
   "name": "meteor-dapp-wallet-prebuilt",
-  "version": "0.2.31",
+  "version": "0.2.32",
   "description": "Build of meteor-dapp-wallet",
   "main": "index.js",
   "scripts": {
