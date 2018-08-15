@@ -4,7 +4,7 @@
   "description": "Build of meteor-dapp-wallet",
   "main": "index.js",
   "scripts": {
-    "rebuild": "cd meteor-dapp-wallet/app && git reset --hard && git apply ../../hashbang.patch && meteor npm install && meteor-build-client ../../build --path ''"
+    "rebuild": "cd meteor-dapp-wallet/app && git reset --hard && meteor npm install && meteor-build-client ../../build --path ''"
   },
   "repository": {
     "type": "git",
